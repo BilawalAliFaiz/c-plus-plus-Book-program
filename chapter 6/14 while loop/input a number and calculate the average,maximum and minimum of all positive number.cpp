@@ -1,0 +1,40 @@
+//write a program that inputs number untill the user enter a nagative number.The program claculte the average ,maximum and minimum of all positive number.
+#include<iostream>
+#include<conio.h>
+using namespace std;
+int main()
+{
+	float num,sum;
+	float avg,min,max;
+	int count;
+	sum=0.0;
+	count=0;
+	cout<<"Enter positive number :";
+	cin>>num;
+	min=num;
+	max=num;
+	while(num>=0.0)
+	{
+		sum+=num;
+		count++;
+		if(num>max)
+		max=num;
+		else if(num <min)
+		min=num;
+		cout<<"Enter a positive number :";
+		cin>>num;
+	}
+	if(count==0)
+	{
+		cout<<"No positive number entered ."<<endl;
+		
+	}
+	else
+	{
+		avg=sum/count;
+		cout<<"You entered "<<count<<"numbers."<<endl;
+		cout<<"Average ="<<avg<<endl;
+		cout<<"Minimum ="<<min<<endl;
+		cout<<"Maximum ="<<max<<endl;	
+		}
+}
