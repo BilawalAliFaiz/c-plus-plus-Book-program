@@ -16,7 +16,7 @@ int main()
 	for (int i = 0; i < message.size(); i++)
 	{
 		cout<<message[i];
-		Sleep(10);
+		Sleep(50);
 	}
 	cout<<endl;
 }
