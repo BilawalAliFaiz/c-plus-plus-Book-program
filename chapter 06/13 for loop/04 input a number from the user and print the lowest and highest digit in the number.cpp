@@ -12,7 +12,7 @@ int high=n%10,low=n%10,rem;
 n=n/10;
 for(int i=n;i>=1;i=i/10)
 {
-	rem=i%10;;
+	rem=i%10;
 	if(rem>high)
 	high=rem;
 	else if(rem<low)
