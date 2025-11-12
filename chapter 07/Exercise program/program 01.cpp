@@ -37,9 +37,10 @@ int main()
 
         if (isprime)
         {
-            cout << num << " ";
+            cout << num << "  ";
             count++;
         }
+
     }
 
     cout << "\nTotal prime numbers you entered: " << count << endl;
