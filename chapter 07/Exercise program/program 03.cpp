@@ -20,10 +20,10 @@ cout<<"Index\tNumber\tSquare\tcube\tsum \n";
 cout<<"-------------------------------------\n";
 for(int i=0;i<size;i++)
 {
-
    cout << i << "\t" <<number[i] << "\t" << square[i]
              << "\t" << cube[i] << "\t" << sum[i] << endl;
          }
          cout<<"\nTotal vlaues in sum are : "<<total<<endl;
 }
+
 
