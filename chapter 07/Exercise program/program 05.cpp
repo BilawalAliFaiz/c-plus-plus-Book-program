@@ -6,13 +6,13 @@ using namespace std;
 
 int main() {
     int arr[10];
-    int count[10]; // to store how many times each number appears
+    int count[10]; 
     int i, j;
 
     cout << "Enter 10 integers:\n";
     for (i = 0; i < 10; i++) {
         cin >> arr[i];
-        count[i] = 1; // initialize count array
+        count[i] = 1; 
     }
 
     for (i = 0; i < 10; i++) {
@@ -20,7 +20,7 @@ int main() {
         for (j = i + 1; j < 10; j++) {
             if (arr[i] == arr[j]) {
                 c++;
-                count[j] = 0; // mark as counted
+                count[j] = 0; 
             }
         }
         if (count[i] != 0)
